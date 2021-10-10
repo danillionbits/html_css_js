@@ -1,0 +1,130 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header,
+footer {
+    padding: 0.5rem 10vw;
+    background-color: #fff3c8;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    padding-top: 0.5rem;
+}
+
+li>i {
+    margin-right: 0.8rem;
+}
+
+header {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+footer {
+    text-align: right;
+}
+
+img {
+    width: 10rem;
+}
+
+#main-info {
+    margin-left: 3rem;
+}
+
+#main-info > h3 {
+    color: orange;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    padding: 0 10vw;
+}
+
+#main {
+    flex: 8;
+    padding: 1rem;
+}
+
+#sidebar {
+    flex: 2;
+    padding: 1rem;
+}
+
+.time {
+    min-width: 8rem;
+    padding: 0 0.5rem;
+}
+
+.description {
+    padding: 0 0.5rem;
+}
+
+.description > h4 {
+    margin-bottom: 0.5rem;
+}
+
+.title {
+    margin-top: 0;
+    color: orange;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.divider {
+    width: auto;
+    height: 0.1rem;
+    background-color: orange;
+}
+
+#skills > span {
+    background-color: orange;
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.8rem;
+}
+
+.dot {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: orange;
+    border: 2px solid orange;
+    display: inline-block;
+}
+
+.unfilled {
+    background-color: white;
+}
+
+#languages .description {
+    width: 100%;
+    text-align: right;
+}
+
+.mainImg {
+    width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+    header {
+        padding: 0 2vw;
+    }
+    footer {
+        padding: 0.5rem 2vw;
+    }
+    #content {
+        padding: 0 2vw;
+    }
+    .img {
+        width: 8rem;
+    }
+}
