@@ -1,0 +1,152 @@
+/* Overall */
+
+#planet-info {
+    background-image: url('./img/galaxy.jpg');
+    background-size: 500px auto;
+    background-repeat: repeat;
+    font-family: 'Montserrat', sans-serif;
+    color: darkgray;
+    word-spacing: 3px;
+    line-height: 20px;
+    font-size: 16px;
+}
+
+h1, h3 {
+    color: white;
+}
+
+h1 {
+    font-family: 'Cairo', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: lightblue;
+    font-style: italic;
+}
+
+.container {
+    padding-right: 0.75em;
+    padding-left: 0.75em;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width:576px) {
+    .container {
+        max-width: 540px
+    }
+}
+
+@media (min-width:768px) {
+    .container {
+        max-width: 720px
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        max-width: 960px
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        max-width: 1140px
+    }
+}
+
+@media (min-width:1400px) {
+    .container {
+        max-width: 1320px
+    }
+}
+
+/* Header navigation */
+
+.top-nav {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.nav {
+    display: inline-block;
+    text-align: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.nav>img {
+    transition: height 0.5s;
+    height: 2rem;
+}
+
+.nav:hover>img {
+    height: 3rem;
+}
+
+.nav>span {
+    display: block;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* Main body */
+
+.container-box {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+}
+
+.body-section:nth-child(n+2) {
+    margin-top: 1.5rem;
+}
+
+.divider {
+    width: 2rem;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: white;
+}
+
+.bg-img {
+    width: 100%;
+    height: auto;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    margin-bottom: 0.8rem;
+}
+
+.column-count {
+    padding-top: 1rem;
+    column-count: 2;
+}
+
+table {
+    margin-top: 1rem;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid white;
+    padding: 0.5rem 1rem;
+}
+
+th {
+    color: white;
+}
+
+/* Footer */
+footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: right;
+}
+
+.footer > p {
+    color: white;
+}
