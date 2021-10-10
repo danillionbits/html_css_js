@@ -1,0 +1,20 @@
+button {
+  font: bold 20px Helvetica, Verdana, sans-serif;
+  width: 10em;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+}
+
+td, th {
+  border: 1px solid #e4e4e4;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #e4e4e4;
+}
